@@ -18,5 +18,5 @@
 	$headers .= "Reply-To: info@donsemechka.ru";	
 	
 	if( mail($to,$email_subject,$email_body,$headers) ) {
-	    header('location: https://donsemechka.ru/thanks.html');} // Редирект послe отправки формы thanks.html или url			
+	    header('location: /thanks.html');} // Редирект послe отправки формы thanks.html или url			
 ?>
